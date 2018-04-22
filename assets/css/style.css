@@ -75,7 +75,7 @@ h1 {background: #4aaaa5;
     
 .main {background-color: #ffffff;
     width: 100%;
-    /* max-width: 960px; */
+    max-width: 960px;
     height: 550px;
     margin: 0 auto;
     clear: both;
