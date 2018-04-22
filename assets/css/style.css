@@ -1,75 +1,175 @@
-
-body { background-image: url("../images/spiration-light.png")
-   
+*{box-sizing: border-box;
 }
+
+body { background-image: url("../images/spiration-light.png");
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777; 
+}
+
 
 h1 {background: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 24px;
+    font-size: 30px;
+    font-weight: 700;
     text-align: center;
-    color:white;
-    width: 25%;
-    padding: 10px;
-    margin-left: 150px;
+    width: 33%;
+    margin: 0 150px 0;
+    z-index: 99;
+    padding: 15px;
+    display: inline-block;
+    
+
+}
+.top{ border-bottom: 2px solid #ccc;
+    background: #fff;
+    color: #fff;
+    overflow: auto;
+    /* position: fixed; */
+    width: 100%;
 }
 
-.buttons {font-family: Arial, Helvetica, sans-serif;
+.buttons {display: inline-block;
         font-size: 16px;
-        padding: 10px;
-        position: absolute;
-        top: 20px;
-        right: 150px;      
-}
-
-.buttons:hover{color: hotpink;
+        float: right;  
+        margin: 30px 150px 0 0;
+        color: #999;
+        line-height: 18px;
+         
 }
 
 #about { text-decoration: none;
-    color: #777777;
-    margin-right: 25px;
+    color: #999;
+    padding-left: 15px; 
+    border-left: 1px solid #efefef;
+    border: none;
+    padding-right: 5px;
 }
 
 #portfolio { text-decoration: none;
-    color: #777777;
-    margin-right: 25px;
+    color: #999;
+    padding-left: 15px; 
+    border-left: 1px solid #efefef;
+    padding-right: 5px;
 }
 
 #contact{text-decoration: none;
-    color: #777777;
+    color: #999;
+    padding-left: 15px; 
+    border-left: 1px solid #efefef; 
+}
+#about:hover{
+    color:hotpink;
+
 }
 
-.main {background-color: #ffffff;
-        width: 960px;
-        margin-left: 150px;
+#contact:hover{
+    color: hotpink;
+}
+
+#portfolio:hover { 
+    color: hotpink;
+
+}
+
     
+.main {background-color: #ffffff;
+    width: 100%;
+    /* max-width: 960px; */
+    height: 550px;
+    margin: 0 auto;
+    clear: both;
+    margin-right: 40px;
+    margin-left: 150px;
+    border: 1px solid #ddd;
 }
+a.aport {
+    position: relative;
+    width: 100%;
+    max-width: 200px;
 
+}
+a.port div h3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+a.port img {
+    display: block;
+    margin: 0 0 0 0;
+}
 h2 {clear: both;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:#4aaaa5;
     padding-top: 50px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     border-bottom: 2px solid #dddddd;
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+#bunch {clear: both;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#4aaaa5;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #dddddd;
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: 10px;
+
 }
 
-img {width: 230px;
-    height: 230px;
+img {width: 200px;
+    height: 200px;
     float: left;
-    margin-right: 10px;
-}
+    margin: 10px 25px 25px 40px;
+} 
+
+
 
 p {font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
 
 }
 
-.footer {background-color: #666666;
-        height: 20px;
+h3 { color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+    bottom: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    
+}
+
+.input {margin-top: 20px;
+    margin-left: 20px;
+
+}
+#submit{ background-color: #4aaaa5;
+        border: none;
+        padding: 10px;
+        margin-bottom: 10px;
+        color: #fff;
+
+}
+.footer, 
+.push {background-color: #666666;
+        height: 50px;
         border-top: #4aaaa5 solid 5px;
         text-align: center;
-        font-size: 10px;
-        margin: 50px 0 0 0; 
+        font-size: 12px;
         width:100%;
-        padding: 10px;
+        padding: 30px 0;
+        clear: both;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        
 }
 
